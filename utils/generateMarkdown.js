@@ -21,8 +21,9 @@ function renderLicenseBadge(license) {
           return "";
   }
 }
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
+// function that returns a license badge based on which license is passed
+
 function renderLicenseBadge(license) {
     switch (license) {
         case "MIT":
@@ -69,21 +70,56 @@ Redistribution and use in source and binary forms, with or without modification,
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`;
+      case "None":
+          return "";
+      default:
+          return "";
+    }
+}
 
-
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
+  userName = data.name;
+  let licenseBadge =renderLicenseBadge(data.license);
+  let licenseDescription = renderLicenseSection(data.license);
   return `# ${data.title}
+${licenseBadge}
 
+${data.description}
+
+## Table of Contents
+ * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+<a name="installation"/>
+## Installation
+${data.installation}
+
+<a name="usage"/>
+## Usage
+${data.usage}
+
+<a name="license"/>
+## License
+${licenseDescription}
+
+<a name="Contributing"/>
+## Contributing
+${data.contributionGuidelines}
+
+<a name="testing"/>
+## Testing
+${data.testing}
+
+<a name="questions"/>
+## Questions
+[Email me](mailto:${data.emailAddress})
+
+[Review my other projects on GitHub](https://www.github.com/${data.username})
 `;
 }
 
