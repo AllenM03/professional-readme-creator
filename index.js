@@ -1,24 +1,24 @@
-// TODO: Include packages needed for this application
-const inquirer = require('inquirer');
-const fs = require('fs');
-const generateMarkdown = require(".utils/generateMarkdown.js");
+// packages required
+const inquirer = require("inquirer");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
+// array of questions for inquirer
 const questions = [
     {
-        type:"input",
-        name:"name",
-        message: "What is your name?",
+        type: "input",
+        name: "name",
+        message: "Please enter your first and last name.",
     },
     {
-        type:"input",
+        type: "input",
         name: "title",
-        message: "What is your project title?",
+        message: "Please enter the title of your project.",
     },
     {
-        type:"input",
-        name:"description",
-        message:"Please enter a description of your project.",
+        type: "input",
+        name: "description",
+        message: "Please enter a description of your project.",
     },
     {
         type: "input",
@@ -28,12 +28,12 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Please enter usage information.",
+        message: "Please enter usage information for your project.",
     },
     {
         type: "input",
-        name:"contributionGuidelines",
-        message: "Please enter your contribution guidelines.",
+        name: "contributionGuidelines",
+        message: "Please enter contribution guidelines for your project.",
     },
     {
         type: "input",
@@ -43,32 +43,33 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Choose license for your project",
-        license: ["MIT", "ISC", "GPL", "Apache", "BSD"],
+        message: "Please select a license for your project.",
+        choices: ["MIT", "ISC", "Apache", "GPL", "BSD", "None"],
     },
     {
         type: "input",
-        name: "Username",
-        message: "Enter your GitHub username",
+        name: "username",
+        message: "Please enter your GitHub username.",
     },
     {
         type: "input",
         name: "emailAddress",
-        message: "Enter your email address",
+        message: "Please enter your email address.",
     },
 ];
 
-// function to write README file from generateMarkdown module
+// function to write readme using generateMarkdown module
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), function (err) {
         if (err) {
-            return; console.log(err);
+            return console.log(err);
         }
-        console.log("Successfully generated Markdown");
+        console.log("Success!");
     });
-};
+}
+9;
 
-// function to initialize app
+// function that initializes app
 function init() {
     inquirer.prompt(questions).then(function (response) {
         console.log(response);

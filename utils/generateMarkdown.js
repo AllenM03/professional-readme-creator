@@ -2,7 +2,7 @@
 const dayjs = require("dayjs");
 var presentDate = dayjs().format("YYYY-MM-DD");
 var userName = "";
-
+//function to create license badges
 function renderLicenseBadge(license) {
   switch (license) {
       case "MIT":
@@ -24,7 +24,7 @@ function renderLicenseBadge(license) {
 
 // function that returns a license badge based on which license is passed
 
-function renderLicenseBadge(license) {
+function renderLicenseSection(license) {
     switch (license) {
         case "MIT":
             return `Copyright ${presentDate} ${userName}
@@ -119,7 +119,7 @@ ${data.testing}
 ## Questions
 [Email me](mailto:${data.emailAddress})
 
-[Review my other projects on GitHub](https://www.github.com/${data.username})
+[Review my other projects on GitHub.](https://www.github.com/${data.username})
 `;
 }
 
