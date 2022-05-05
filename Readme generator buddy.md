@@ -13,11 +13,20 @@ An app that dynamically creates a readme.md file
 
 <a name="installation"/>
 ## Installation
-Install 'Node' on your local computer, then clone the repository from GitHub, and run 'npm install'.
+After forking the project, run the code below to install the modules needed to run this program:
+
+```
+npm install
+```
 
 <a name="usage"/>
 ## Usage
-In the command line run 'index.js' in Node and follow the terminal prompts.
+
+To run the program, run the code below in Node and follow the terminal prompts:
+
+```
+node index.js
+```
 
 <a name="license"/>
 ## License
@@ -34,10 +43,13 @@ Create an issue before creating a pull request.
 
 <a name="testing"/>
 ## Testing
-Run 'npm install'
+
+```
+npm run test
+```
 
 <a name="questions"/>
 ## Questions
-[Email me](mailto:almcbroombey@hotmail.com)
+[Email me](mailto:almcbroombey@email.com)
 
 [Review my other projects on GitHub.](https://www.github.com/AllenM03)
