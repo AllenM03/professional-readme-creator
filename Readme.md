@@ -45,9 +45,9 @@ THE SOFTWARE IS PROVIDED “AS IS” AND ISC DISCLAIMS ALL WARRANTIES WITH REGAR
 ## Contributing
 Create an issue before creating a pull request.
 
-<a name="testing"/>
+<a name="tests"/>
 
-## Testing
+## Tests
 
 ```
 npm run test
