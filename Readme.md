@@ -1,4 +1,4 @@
-# Professional-Readme-Creator
+# Professional Readme Creator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An app that dynamically creates a readme.md file
