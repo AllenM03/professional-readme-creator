@@ -12,6 +12,7 @@ An app that dynamically creates a readme.md file
   * [Questions](#questions)
 
 <a name="installation"/>
+
 ## Installation
 After forking the project, run the code below to install the modules needed to run this program:
 
@@ -20,6 +21,7 @@ npm install
 ```
 
 <a name="usage"/>
+
 ## Usage
 
 To run the program, run the code below in Node and follow the terminal prompts:
@@ -29,6 +31,7 @@ node index.js
 ```
 
 <a name="license"/>
+
 ## License
 Copyright 2022-05-04 Allen McBroom Bey
 
@@ -38,10 +41,12 @@ provided that the above copyright notice and this permission notice appear in al
 THE SOFTWARE IS PROVIDED “AS IS” AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 <a name="Contributing"/>
+
 ## Contributing
 Create an issue before creating a pull request.
 
 <a name="testing"/>
+
 ## Testing
 
 ```
@@ -49,6 +54,7 @@ npm run test
 ```
 
 <a name="questions"/>
+
 ## Questions
 [Email me](mailto:almcbroombey@email.com)
 
