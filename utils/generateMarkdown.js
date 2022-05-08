@@ -96,27 +96,42 @@ ${data.description}
   * [Questions](#questions)
 
 <a name="installation"/>
+
 ## Installation
+
 ${data.installation}
 
 <a name="usage"/>
+
 ## Usage
+
 ${data.usage}
 
+
 <a name="license"/>
+
 ## License
+
 ${licenseDescription}
 
+
 <a name="Contributing"/>
+
 ## Contributing
+
 ${data.contributionGuidelines}
 
+
 <a name="testing"/>
+
 ## Testing
+
 ${data.testing}
 
 <a name="questions"/>
+
 ## Questions
+
 [Email me](mailto:${data.emailAddress})
 
 [Review my other projects on GitHub.](https://www.github.com/${data.username})
