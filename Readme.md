@@ -34,8 +34,8 @@ node index.js
 
 ## Demo
 
-This is a demo of running the program in the command line and a user answering questions that are used to generate the Readme file.
-https://github.com/AllenM03/professional-readme-creator/blob/main/sample%20files/readme-generator.mp4
+This is a demo of running the program in the command line and can be viewed at the Google drive link:
+https://drive.google.com/file/d/1luTUMU6pGZAh1IP5PsJyDV6L3PGDK2ri/view?usp=sharing
 
 <a name="license"/>
 
