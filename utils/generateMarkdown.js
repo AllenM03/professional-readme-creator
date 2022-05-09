@@ -92,7 +92,7 @@ ${data.description}
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Tests](#tests)
+  * [Testing](#testing)
   * [Questions](#questions)
 
 <a name="installation"/>

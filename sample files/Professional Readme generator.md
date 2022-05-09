@@ -1,68 +1,58 @@
-# Professional Readme Creator
+# Professional Readme generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An app that dynamically creates a readme.md file
+This is a Readme generator that quickly creates a readme file from the command-line with Node.js.
 
 ## Table of Contents
  * [Installation](#installation)
   * [Usage](#usage)
-  * [Demo Video](#demo)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Tests](#tests)
+  * [Testing](#testing)
   * [Questions](#questions)
 
 <a name="installation"/>
 
 ## Installation
-After forking the project, run the code below to install the modules needed to run this program:
 
-```
-npm install
-```
+Run npm install
 
 <a name="usage"/>
 
 ## Usage
 
-To run the program, run the code below in Node and follow the terminal prompts:
-
-```
 node index.js
-```
-<a name="demo"/>
 
-## Demo
-
-This is a demo of running the program in the command line and a user answering questions that are used to generate the Readme file.
-https://github.com/AllenM03/professional-readme-creator/blob/main/sample%20files/readme-generator.mp4
 
 <a name="license"/>
 
 ## License
-Copyright 2022-05-04 Allen McBroom Bey
+
+Copyright 2022-05-09 Allen McBroom Bey
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, 
 provided that the above copyright notice and this permission notice appear in all copies.
 
 THE SOFTWARE IS PROVIDED “AS IS” AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+
 <a name="Contributing"/>
 
 ## Contributing
+
 Create an issue before creating a pull request.
 
-<a name="tests"/>
 
-## Tests
+<a name="testing"/>
 
-```
+## Testing
+
 npm run test
-```
 
 <a name="questions"/>
 
 ## Questions
-[Email me](mailto:almcbroombey@email.com)
+
+[Email me](mailto:allen-123@email.com)
 
 [Review my other projects on GitHub.](https://www.github.com/AllenM03)
